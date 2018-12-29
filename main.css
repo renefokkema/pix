@@ -1,0 +1,49 @@
+*, html, body{
+	margin: 0;
+	padding: 0;
+	/*overflow-x: hidden;
+	overflow-y: scroll;*/
+}
+body {
+	background-color: white;
+}
+
+img {
+	float: left;
+	transition-property: opacity;
+}
+
+#main {
+	transition-duration: .3s;
+}
+
+#main, #info {
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition-property: opacity;
+}
+
+#info {
+	padding: 5em;
+	transition-property: opacity;
+	transition-duration: .9s;
+	opacity: 0;
+	background-color: green;
+}
+
+.row {
+
+}
+
+.cell {
+	width: 20%;
+	height: 100px;
+	background-color: red;
+	/*border: 1px solid white;*/
+	float: left;
+}
+
+.cell.u {
+	background-color: grey;
+}
